@@ -78,4 +78,9 @@
  */
 @property (readonly, NS_NONATOMIC_IOSONLY) CZTemperature highTemperature;
 
+/**
+ The icon url.
+ */
+@property (readonly, NS_NONATOMIC_IOSONLY) NSString *iconUrl;
+
 @end

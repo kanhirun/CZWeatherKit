@@ -251,6 +251,7 @@ static NSDateFormatter *historyDateFormatter = nil;
             .c = day[@"high"] ? [day[@"high"][@"celsius"]floatValue] : CZValueUnavailable
         };
         condition.humidity = [CZWundergroundAPI value:day name:@"avehumidity"];
+        condition.iconUrl = day[@"icon_url"];
         
         [conditions addObject:condition];
     }

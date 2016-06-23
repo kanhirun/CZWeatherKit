@@ -77,4 +77,9 @@
  */
 @property (assign, NS_NONATOMIC_IOSONLY) CZTemperature highTemperature;
 
+/**
+ @warning Not for external use.
+ */
+@property (copy, NS_NONATOMIC_IOSONLY) NSString *iconUrl;
+
 @end
