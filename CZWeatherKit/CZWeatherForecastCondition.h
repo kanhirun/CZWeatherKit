@@ -81,6 +81,6 @@
 /**
  The icon url.
  */
-@property (readonly, NS_NONATOMIC_IOSONLY) NSString *iconUrl;
+@property (copy, NS_NONATOMIC_IOSONLY) NSString *iconUrl;
 
 @end
